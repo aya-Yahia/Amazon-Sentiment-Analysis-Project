@@ -41,8 +41,7 @@ The system handles raw, unstructured review text and executes an automated end-t
 ![Class Distribution](01_class_distribution.jfif)
 ![Top Words](02_top_words.png)
 
-### 2. Side-by-Side Word Clouds
-![Word Clouds](screenshots/03_wordclouds.png)
+
 
 ### 3. Bigram Contextual Analysis
 * **Positive Bigrams:** Dominated by phrases like `love amazon`, `customer support`, and `fast delivery`.
@@ -50,7 +49,7 @@ The system handles raw, unstructured review text and executes an automated end-t
 
 | Positive Bigrams | Negative Bigrams |
 |---|---|
-| ![Positive Bigrams](screenshots/04_positive_bigrams.png) | ![Negative Bigrams](screenshots/05_negative_bigrams.png) |
+| ![Positive Bigrams](04_positive_bigrams.png) | ![Negative Bigrams](05_negative_bigrams.png) |
 
 ---
 
@@ -70,7 +69,7 @@ Five supervised classifiers were evaluated on the same 80/20 train/test split:
 
 | ROC Curves Comparison | Confusion Matrices Comparison |
 |---|---|
-| ![ROC Curves](screenshots/06_roc_curves.webp) | ![Confusion Matrices](screenshots/07_confusion_matrices.webp) |
+| ![ROC Curves](06_roc_curves.webp) | ![Confusion Matrices](07_confusion_matrices.webp) |
 
 ---
 
