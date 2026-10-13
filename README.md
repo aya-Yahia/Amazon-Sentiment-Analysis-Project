@@ -38,7 +38,7 @@ The system handles raw, unstructured review text and executes an automated end-t
 ## 📊 Exploratory Data Analysis & Visualizations
 
 ### 1. Class Distribution & Word Frequencies
-![Class Distribution](screenshots/01_class_distribution.png)
+![Class Distribution](screenshots/01_class_distribution.jfif)
 ![Top Words](screenshots/02_top_words.png)
 
 ### 2. Side-by-Side Word Clouds
@@ -70,7 +70,7 @@ Five supervised classifiers were evaluated on the same 80/20 train/test split:
 
 | ROC Curves Comparison | Confusion Matrices Comparison |
 |---|---|
-| ![ROC Curves](screenshots/06_roc_curves.png) | ![Confusion Matrices](screenshots/07_confusion_matrices.png) |
+| ![ROC Curves](screenshots/06_roc_curves.webp) | ![Confusion Matrices](screenshots/07_confusion_matrices.webp) |
 
 ---
 
