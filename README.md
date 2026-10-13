@@ -38,8 +38,8 @@ The system handles raw, unstructured review text and executes an automated end-t
 ## 📊 Exploratory Data Analysis & Visualizations
 
 ### 1. Class Distribution & Word Frequencies
-![Class Distribution](screenshots/01_class_distribution.jfif)
-![Top Words](screenshots/02_top_words.png)
+![Class Distribution](01_class_distribution.jfif)
+![Top Words](02_top_words.png)
 
 ### 2. Side-by-Side Word Clouds
 ![Word Clouds](screenshots/03_wordclouds.png)
