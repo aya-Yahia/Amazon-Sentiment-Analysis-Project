@@ -1,16 +1,16 @@
 # Amazon-Sentiment-Analysis-Project
 A deep dive into the 'unstructured' world of consumer language. Using Natural Language Processing (NLP) techniques in R, I transformed thousands of qualitative feedback entries into quantitative insights. By decoding sentiment trends and semantic patterns, I uncovered the hidden 'voice of the customer' to drive brand strategy
 
-# 🛒 Amazon Reviews Sentiment Analysis Pipeline
+#  Amazon Reviews Sentiment Analysis Pipeline
 
-## 📌 Project Overview
+##  Project Overview
 This repository presents a complete **Natural Language Processing (NLP) & Machine Learning Pipeline** constructed in **R** for sentiment classification of Amazon customer reviews. 
 
 The system handles raw, unstructured review text and executes an automated end-to-end workflow: **Text Cleaning ➔ Unsupervised Lexicon Labeling ➔ Class Balancing ➔ Document-Term Matrix (DTM) Feature Engineering ➔ Benchmark ML Classification**.
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+##  Tech Stack & Libraries
 * **Language:** R
 * **NLP & Text Mining:** `tidytext`, `tm`, `stringr`, `SnowballC`, `wordcloud`
 * **Data Wrangling:** `tidyverse` (`dplyr`, `ggplot2`), `janitor`
@@ -18,7 +18,7 @@ The system handles raw, unstructured review text and executes an automated end-t
 
 ---
 
-## ⚙️ Methodology & Pipeline Stages
+##  Methodology & Pipeline Stages
 
 1. **Text Preprocessing & Quality Control:**
    * Consolidated `review_title` and `review_text` into a single body text.
@@ -35,7 +35,7 @@ The system handles raw, unstructured review text and executes an automated end-t
 
 ---
 
-## 📊 Exploratory Data Analysis & Visualizations
+##  Exploratory Data Analysis & Visualizations
 
 ### 1. Class Distribution & Word Frequencies
 ![Class Distribution](01_class_distribution.jfif)
@@ -53,7 +53,7 @@ The system handles raw, unstructured review text and executes an automated end-t
 
 ---
 
-## 🏆 Machine Learning Benchmarking & Performance
+##  Machine Learning Benchmarking & Performance
 
 Five supervised classifiers were evaluated on the same 80/20 train/test split:
 
@@ -73,7 +73,7 @@ Five supervised classifiers were evaluated on the same 80/20 train/test split:
 
 ---
 
-## 💡 Key Strategic & Business Insights
+##  Key Strategic & Business Insights
 * **Service Over Product Focus:** Frequent appearance of `delivery`, `service`, and `customer` across both sentiment classes reveals that customer dissatisfaction is primarily driven by **fulfillment logistics and support interaction**, rather than product quality alone.
 * **Operational Interventions:** High occurrence of `late delivery` or `refund process` in negative bigrams provides actionable intelligence for streamlining return policies and logistics SLAs.
 
